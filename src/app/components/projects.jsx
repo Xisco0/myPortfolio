@@ -1,7 +1,7 @@
 
 export default function projects() {
   return (
-<section id="projects" className="px-6 py-20 border-t border-white/10 dark:bg-gray-800">
+<section id="projects" className="px-6 py-20 border-t border-white/10 bg-gray-800">
   <div className="w-[85%] m-auto max-w-[1200px]">
   <h3 className="text-2xl font-semibold mb-6">Projects</h3>
   <div className="grid gap-6 md:grid-cols-2">
