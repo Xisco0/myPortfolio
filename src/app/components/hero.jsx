@@ -4,7 +4,7 @@ return (
 <section className="py-24 flex items-center justify-center bg-gray-800">
   <div className="w-[85%] flex justify-between gap-3 items-center max-w-[1200px] flex-wrap-reverse">
     <div className="max-w-xl" data-aos="fade-left" data-aos-duration="2000">
-      <h2 className="text-7xl font-bold mb-4 leading-tight max-[644px]:text-4xl">
+      <h2 className="text-7xl font-bold mb-4 leading-tight max-[644px]:text-4xl text-white">
         Hello, I'm <span className="text-[#00FFE0]">Bamirin Francis</span>
       </h2>
       <p className="text-gray-300 mb-6">

@@ -7,8 +7,8 @@ export default function Header() {
     <header className="w-full py-6 border-b border-white/10"  data-aos="fade-down" data-aos-duration="2000">
       <nav className="w-[85%] m-auto max-w-[1200px] flex justify-between items-center">
         <h1 className="text-xl font-semibold tracking-wide text-white">Bamirin Francis</h1>
-        <div className="max-md:hidden flex space-x-6 text-sm text-white">
-          <a href="#about" className="hover:text-gray-300 font-[title-font]">About</a>
+        <div className="max-md:hidden flex space-x-6 text-sm text-white font-[body-font]">
+          <a href="#about" className="hover:text-gray-300 ">About</a>
           <a href="#skills" className="hover:text-gray-300">Skills</a>
           <a href="#projects" className="hover:text-gray-300">Projects</a>
           <a href="#contact" className="hover:text-gray-300">Contact</a>
@@ -25,7 +25,7 @@ export default function Header() {
 
       
     {isOpen && (
-      <div className="md:hidden mt-4 ml-4 px-6 space-y-4 text-sm" >
+      <div className="md:hidden mt-4 ml-4 px-6 space-y-4 text-sm text-white" >
         <a href="#about" className="block hover:text-gray-300">About</a>
         <a href="#skills" className="block hover:text-gray-300">Skills</a>
         <a href="#projects" className="block hover:text-gray-300">Projects</a>
