@@ -12,7 +12,7 @@ return (
       </p>
       <div className="flex gap-4">
         <a href="/document/Bamirin-Francis-Cv.pdf" download="/document/Bamirin-Francis-Cv.pdf" className="bg-white text-black px-5 py-2 rounded hover:bg-gray-200 transition">Download CV</a>
-        <a href="/document/Bamirin-Francis-Cv.pdf" target="_blank" rel="noopener noreferrer" className="border border-white px-5 py-2 rounded hover:bg-white hover:text-black transition">Print CV</a>
+        <a href="/document/Bamirin-Francis-Cv.pdf" target="_blank" rel="noopener noreferrer" className="border border-white px-5 py-2 rounded text-white hover:bg-white hover:text-black transition">Print CV</a>
       </div>
     </div>
     <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-[#00FFE0] shadow-lg" data-aos="fade-right" data-aos-duration="2000">

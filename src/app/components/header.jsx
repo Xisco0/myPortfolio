@@ -6,8 +6,8 @@ export default function Header() {
   return (
     <header className="w-full py-6 border-b border-white/10"  data-aos="fade-down" data-aos-duration="2000">
       <nav className="w-[85%] m-auto max-w-[1200px] flex justify-between items-center">
-        <h1 className="text-xl font-semibold tracking-wide ">Bamirin Francis</h1>
-        <div className="max-md:hidden flex space-x-6 text-sm">
+        <h1 className="text-xl font-semibold tracking-wide text-white">Bamirin Francis</h1>
+        <div className="max-md:hidden flex space-x-6 text-sm text-white">
           <a href="#about" className="hover:text-gray-300 font-[title-font]">About</a>
           <a href="#skills" className="hover:text-gray-300">Skills</a>
           <a href="#projects" className="hover:text-gray-300">Projects</a>
