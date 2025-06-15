@@ -1,5 +1,6 @@
 import "./components/site/styles/icons-1.10.2/font/bootstrap-icons.css";
 import "./globals.css";
+import "./components/site/styles/animate.css";
 
 
 export const metadata = {
