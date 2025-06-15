@@ -8,8 +8,8 @@ export const metadata = {
   description: "A showcase of my projects and skills",
   keywords: ["portfolio", "developer", "web development"],
   icons: {
-    icon: "/all-images/latest-logo.ico", // Standard favicon
-    shortcut: "/all-images/latest-logo.ico", // Shortcut icon for browsers
+    icon: "/all-images/latest-logo.icon", // Standard favicon
+    shortcut: "/all-images/latest-logo.icon", // Shortcut icon for browsers
   },
    openGraph: {
     title: "Xisco - Portfolio",
