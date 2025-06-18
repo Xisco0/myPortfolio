@@ -14,7 +14,7 @@ export default function ContactForm() {
     // Optional: add any field validations here
 
     try {
-      const res = await fetch("https://formsubmit.co/francisbamirin45@gmail.com", {
+      const res = await fetch("https://formsubmit.co/b15536329c37dd71d8a4e049aa01a20f", {
         method: "POST",
         body: data,
       });
