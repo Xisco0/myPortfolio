@@ -8,15 +8,15 @@ export const metadata = {
   description: "A showcase of my projects and skills",
   keywords: ["portfolio", "developer", "web development","Next.js", "developer", "Fullstack engineer", "Francis Bamirin"],
   icons: {
-    icon: "/all-images/latest-logo.icon", // Standard favicon
-    shortcut: "/all-images/latest-logo.icon", // Shortcut icon for browsers
+    icon: "/all-images/logo.ico", // Standard favicon
+    shortcut: "/all-images/logo.ico", // Shortcut icon for browsers
   },
    openGraph: {
     title: "Xisco - Portfolio",
     description: "A showcase of my projects and skills",
     type: "website",
     url: "xiscoportfolio.com",
-    image: "https://your-portfolio-url.com/og-image.jpg",
+    image: "/all-images/my-image.jpg",
   },
 };
 

@@ -2,11 +2,13 @@
 import { useState } from 'react';
 
 export default function Header() {
-   const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="w-full py-6 border-b border-white/10"  data-aos="fade-down" data-aos-duration="2000">
+    <header className="w-full py-2 border-b border-white/10"  data-aos="fade-down" data-aos-duration="2000">
       <nav className="w-[85%] m-auto max-w-[1200px] flex justify-between items-center">
-        <h1 className="text-xl font-semibold tracking-wide text-white">Bamirin Francis</h1>
+        <div className="w-[50px] overflow-hidden">
+          <img src="/all-images/logo.fw.png" alt="my logo" className='w-full rounded-[5px] bg-cover'/>
+        </div>
         <div className="max-md:hidden flex space-x-6 text-sm text-white font-[body-font]">
           <a href="#about" className="hover:text-gray-300 ">About</a>
           <a href="#skills" className="hover:text-gray-300">Skills</a>
