@@ -9,7 +9,7 @@ export const metadata = {
   keywords: ["portfolio", "developer", "web development","Next.js", "developer", "Fullstack engineer", "Francis Bamirin"],
   icons: {
     icon: "/all-images/logo.ico", // Standard favicon
-    shortcut: "/all-images/logo.ico", // Shortcut icon for browsers
+    shortcut: "/all-images/logo.png", // Shortcut icon for browsers
   },
    openGraph: {
     title: "Xisco - Portfolio",
